@@ -1,9 +1,10 @@
 import './App.css';
+import MovieReleaseBox from './containers/MovieReleaseBox';
 
 function App() {
   return (
-    <p>Hi</p>
-  );
+    <MovieReleaseBox></MovieReleaseBox>
+    );
 }
 
 export default App;
