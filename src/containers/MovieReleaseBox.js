@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import FilmList from "../components/FilmList";
 
 const MovieReleaseBox = () => {
-    const [movies, setMovies] = useState (
+    const [films, setFilms] = useState (
         [
             {
               id: 1,
@@ -30,7 +31,7 @@ const MovieReleaseBox = () => {
           ])
     return (
         <>
-        <h2>Upcoming Film Releases For UK</h2>
+        <FilmList films = {films}></FilmList>
         </>
     )
 
